@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.4;
+}
+
+header {
+    background-image: url('../images/cottageheader.jfif');
+    background-size: cover;
+    height: 480px;
+}
+
+h1 {
+    color: rgb(43, 50, 31);
+    font-size: 80px;
+    margin: 129px 0 0 0;
+}
+
+h2 {
+    color: rgb(43, 50, 31);
+    font-size: 30px;
+    margin: 0;
+    line-height: 30px;
+}
+
+h3 {
+    color: cornsilk;
+    text-align:center;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 29px;
+}
+
+h4 {
+    color: rgb(43, 50, 31);
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color:cornsilk;
+    font-size: 18px;
+    margin:0;
+    margin-bottom:16px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    margin: 0 48px 20px 0;
+}
+
+.content {
+    margin: auto;
+    width: 960px;
+    padding: 22px 0;
+}
+
+#intro {
+    text-align: center;
+}
+
+#section1 {
+    background-color: rgb(43, 50, 31);
+    height: 718px;
+}
+
+#section1 img {
+    float: right;
+    object-fit: cover;
+    width: 400px;
+    height: 302px;
+    margin: 0 0 30px 40px;
+}
+
+#section2 {
+    background-color:rgb(175, 199, 148);
+}
+
+
+.gridimage {
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    margin: 0;
+    margin-right:12px;
+}
+
+.gridtext {
+    text-align: left;
+    padding: 5px 0;
+    width: 220px;
+}
+
+p.desc {
+    color: rgb(43, 50, 31);
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 8px;
+}
+
+#section3 {
+    padding-bottom: 100px;
+    background-color: rgb(71, 42, 30);
+}
+
+#section3 p {
+    color: cornsilk;
+    text-align: center;
+    font-size: 26px;
+    width: 720px;
+    line-height: 36px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.panel{
+
+    padding:10px;
+  
+}
+
+footer {
+    background-color: rgb(43, 50, 31);
+    padding-top: 1px;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+    color: cornsilk;
+}
