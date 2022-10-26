@@ -36,9 +36,24 @@ html {
     padding-left: 30%;
     padding-right: 30%;
     margin-bottom: 40px;
+    margin-left:auto;
+    margin-right:auto;
     line-height: 30px;
     font-size: 20px; 
     color: cornsilk
+}
+
+.smallbox {
+
+    background-color: rgb(104, 48, 23);
+    border-radius: 10px;
+    border: 10px;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 40px; 
+    color: cornsilk
+
 }
 
 
