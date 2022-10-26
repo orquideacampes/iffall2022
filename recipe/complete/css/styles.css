@@ -1,32 +1,30 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
     width: 100%;
-    max-width: 90%;
-    margin: 5rem auto; 
-    display: block;
-    margin: auto;   
+    max-width: 40rem;
+      
   }
 
 html {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
+    background-color: rgb(232, 218, 197);
 }
 
 .box {
-    background-color: rgb(50, 32, 23);
-    border-radius: 20px;
+    background-color: rgb(104, 48, 23);
+    border-radius: 10px;
+    border: 10px;
     width: 100%;
+    padding: 2rem 1rem 4rem 1rem;
     padding-bottom: 40px;
     padding-left: 30%;
     padding-right: 30%;
     margin-bottom: 40px;
     line-height: 30px;
-    text-align: justify;
     font-size: 20px; 
     color: cornsilk
 }
@@ -34,17 +32,22 @@ html {
 
 
 h1 {
-    color: rgb(50, 32, 23);
-    font-size: 100px;
+    color: rgb(104, 48, 23);
+    font-size: 80px;
     font-weight: 800;
+    margin:0;
+    margin-top: 30px;
+    margin-bottom: 29px;
+    border-radius: 30px;
 }
 
 h2 {
-    color: rgb(50, 32, 23);
+    color: rgb(104, 48, 23);
     font-size: 30px;
     margin: 0;
     line-height: 30px;
     font-weight: 600;
+    margin-bottom:30px;
 }
 
 h3 {
@@ -57,18 +60,18 @@ h3 {
 }
 
 h4 {
-    color: rgb(43, 50, 31);
+    color: cornsilk;
     font-size: 20px;
-    line-height: 20px;
-    margin: 0;
-    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 29px;
+    text-align:center;
 }
 
 p {
     font-size: 18px;
     margin:0;
     margin-bottom:16px;
-    background-color: rgb(72, 43, 38);
+    background-color: rgb(104, 48, 23);
     border-radius: 30px;
     width:100%
 }
@@ -86,8 +89,5 @@ li {
     margin: auto;
     width: 960px;
     padding: 22px 0;
-}
-
-#intro {
-    text-align: center;
+    align-content: center;
 }
