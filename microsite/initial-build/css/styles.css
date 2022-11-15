@@ -1,0 +1,85 @@
+nav#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 1em 10em;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Agency FB Bold';
+    font-size: 20pt;
+    background-color: rgb(214, 41, 41);
+}
+
+nav#main-nav ul li a {
+    display: inline-block;
+    color: black;
+    padding: .2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .5s;
+
+}
+
+nav#main-nav ul li a:hover {
+    color:white;
+
+}
+
+nav#main-nav ul li a.selected {
+    color:white;
+}
+
+h1 {
+    font-family: 'Agency FB Bold';
+    font-size: 210pt;
+    color: white;
+    text-align: center;
+    margin: 0 0 0 0; 
+  }
+
+  h2 {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    text-align:right;
+    font-size: 50pt;
+    margin: .2em 0 0 0; 
+    line-height: 10px;
+  }
+
+  h3 {
+    font-family: 'Agency FB Bold';
+    font-size: 40pt;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 0; 
+  }
+
+  #section1 {
+    background-color: rgb(214, 41, 41);
+    height: 600px;
+}
+
+#copy img {
+    float: left;
+    object-fit: cover;
+    width: 500px;
+    margin: 0 0 30px 40px;
+    padding: 40px;
+}
+
+.text {
+    margin: 0 0 30px 40px;
+    padding: 40px;
+    padding-right: 50px;
+    font-size: 20pt;
+}
+
+
+body {
+    background-image: url('../images/bgdots.jpg');
+    background-repeat: repeat-y;
+    font-family:"neue-haas-grotesk-display";
+    font-style:normal;
+    font-weight:400;
+    line-height: 1.8;
+  }
