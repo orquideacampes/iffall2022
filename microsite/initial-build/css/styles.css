@@ -89,7 +89,6 @@ body {
     font-weight:400;
     line-height: 1.8;
 
-
   }
 
   #biography {
@@ -156,4 +155,13 @@ body {
     margin: 0;
 
 
+}
+
+#art img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+#art img {
+    transition:transform 0.25s ease;
 }
