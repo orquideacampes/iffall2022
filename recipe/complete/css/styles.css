@@ -6,12 +6,21 @@
 
 body {
     width: 100%;
-    max-width: 40rem;
+    max-width: 1000px;
     margin: 5rem auto; 
     display: block;
     margin: auto;  
       
   }
+
+  #horchata{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0px;
+}
 
   .center {
     display: block;
@@ -22,7 +31,7 @@ body {
 
 html {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.4;
+    line-height: 1.2;
     background-color: rgb(232, 218, 197);
 }
 
@@ -40,49 +49,101 @@ html {
     margin-right:auto;
     line-height: 30px;
     font-size: 20px; 
-    color: cornsilk
+    color: rgb(232, 218, 197)
 }
 
 .smallbox {
-
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-weight: 300;
+    font-size: 21px;
     background-color: rgb(104, 48, 23);
-    border-radius: 10px;
-    border: 10px;
+    padding: 0.5em;
+    color: white;
     width: 100%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    font-size: 40px; 
-    color: cornsilk
+    display: block;
 
+} 
+
+.prep{
+    font-size: 17px;
+  background: rgb(104, 48, 23);
+  padding: 30px;
+  margin-bottom: 15px;
+  color: rgb(232, 218, 197)
+  
 }
 
+.ingredients{
+    font-size: 19px;
+  background: rgb(104, 48, 23);
+  padding: 30px;
+  margin-bottom: 10px;
+  color: rgb(232, 218, 197)
+}
 
+@media only screen and (min-width: 680px){
+    #prep-ingredients{
+        display: flex;
+    }
+    .prep{
+        width: 50%;
+    }
+    .ingredients{
+        margin-left: 10px;
+        width: 50%;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    
+    h2{
+        font-size: 25px;
+    }
+}
+
+#instructions{
+    font-size: 22px;
+    margin-top: 30px;
+    padding-left: 20px;
+    color: rgb(232, 218, 197);
+    background: rgb(104, 48, 23);
+    padding: 40px;
+}
+
+#instructions ol li{
+    margin-bottom: 20px;
+}
 
 h1 {
+    font-family: multi-display, sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
     color: rgb(104, 48, 23);
     font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: 800;
-    margin:0;
-    margin-top: 30px;
-    margin-bottom: 29px;
-    border-radius: 30px;
+
 }
 
 h2 {
+    font-family: multi-display, sans-serif;
     color: rgb(104, 48, 23);
-    font-size: 30px;
-    text-align:center;
-    margin: 0;
-    line-height: 30px;
-    font-weight: 600;
-    margin-bottom:30px;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
 
 h3 {
+    font-family: multi-display, sans-serif;
     color: cornsilk;
     text-align:center;
-    text-decoration: underline;
-    font-size: 40px;
+    font-size: 25px;
     margin-top: 30px;
     margin-bottom: 29px;
 }
@@ -100,21 +161,24 @@ p {
     margin:0;
     margin-bottom:16px;
     background-color: rgb(104, 48, 23);
-    border-radius: 30px;
     width:100%
 }
 
-ul{
-    list-style-type: square;
-    
-}
+
 
 li {
     margin: 10px 0;
 }
 
-
-
-#intro {
+.numbers {
+    border: 1.5px solid rgb(50, 50, 50);
+    width: 28px;
+    height: 28px;
     text-align: center;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
